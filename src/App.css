@@ -1,0 +1,292 @@
+body {
+  text-align: center;
+  background-image: url("./images/ep_naturalblack.png");
+  padding-bottom: 80px;
+}
+
+/* Navbar */
+
+nav {
+  position: fixed;
+  top: 0;
+  background-color: dimgray;
+  opacity: 0.8;
+}
+
+.navbar {
+  background-color: rgb(4,5,7);
+}
+
+.navbar-light .navbar-brand, .nav-link {
+  color: white !important;
+  width: 20%;
+
+}
+
+button.mr-2.navbar-toggler {
+  background-color: white;
+} 
+
+/* Jumbotron */
+
+.jumbotron-fluid {
+  background-image: url("./images/budebackground.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  margin-top: 50px;
+  position: relative;
+  padding-bottom: 100px !important;
+}
+
+.lead {
+  font-weight: 500 !important;
+}
+
+/* GitHub, LinkedIn and CV links */
+
+#github {
+  width: 32px;
+  height: auto;
+  position: absolute;
+  left: 55%;
+  bottom: 103%;
+  background-color: white;
+  border-radius: 50%;
+  padding: 2px;
+}
+
+#linkedin {
+  width: 32px;
+  height: auto;
+  border-radius: 15px;
+  border: white solid 2px;
+  position: absolute;
+  left: 45%;
+  bottom: 103%;
+}
+
+#cv {
+  color: white;
+  width: 32px;
+  font-size: 14px;
+  padding: 4px;
+  background-color: black;
+  border: white solid 2px;
+  border-radius: 50px;
+  position: absolute;
+  left: 50%;
+  bottom: 103%;
+  text-align: center;
+}
+
+a:hover {
+  transition: 500ms;
+  opacity: 0.5;
+  color: gray;
+}
+
+a:active {
+  opacity: 0.2;
+}
+
+/* About me text and image */
+
+#aboutMeSection {
+  color: whitesmoke;
+  width: auto;
+  background-color: rgb(4,5,7);
+  align-content: center;
+  margin: 10px 80px 10px 80px;
+}
+
+#myPhoto {
+  float: left;
+  margin: 20px;
+}
+
+#aboutMeText {
+  text-align: left;
+  padding-top: 30px;
+  font-size: 13pt;
+  padding-right: 20px;
+}
+
+/* Projects page */
+
+.projectsCarousel{
+  width: 100%;
+  height: 100%;
+}
+
+.carouselContainer{
+  background-color: rgb(4,5,7);
+  opacity: 0.8;
+  display: flex !important;
+  flex-direction: row !important;
+  align-items: center;
+  margin: 40px 40px 40px 40px;
+}
+
+.imgContainer{
+  float: left !important;
+  width: 50%;
+}
+
+.textContainer, .githubLink a{
+  padding: 1% !important;
+  position: relative;
+  height: 50%;
+  right: 2%;
+  width: 50%;
+  font-size: 25px;
+}
+
+.carousel-caption{
+  position: relative !important;
+  top: 0 !important;
+  height: 100% !important;
+  width: 75% !important;
+}
+
+.textContainer p, .githubLink a{
+  color: white !important;
+  font-size: 16px;
+}
+
+.carousel-control-next, .carousel-control-prev {
+  width: 4% !important;
+}
+
+.githubLink a {
+  left: 38%;
+  font-style: italic;
+}
+
+/* Contact */
+
+#form {
+  background-color: rgb(4,5,7);
+  width: 80%;
+  color: white;
+  padding: 20px;
+  border: 2px lightgray solid;
+  border-radius: 20px;
+  margin: 40px 10% 80px 10%;
+  float: left;
+}
+
+/* Mobile responsiveness */
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  #github {
+    left: 70%;
+  }
+  #linkedin {
+    left: 30%;
+  }
+  .jumbotron-fluid {
+    background-size: cover;
+    height: 50%;
+  }
+  .display-3 {
+    font-size: 36px !important;
+    font-weight: bold !important;
+    text-align: center;
+    text-shadow: white 1px 1px;
+  }
+  .lead {
+    text-align: center;
+    font-size: 20px !important;
+    text-shadow: white 1px 1px;
+  }
+  #aboutMeSection {
+    margin: 0;
+    margin-bottom: 25px;
+  }
+  #myPhoto {
+    float: none;
+    margin-left: 25%;
+    margin-right: 25%;
+    max-width: 50%;
+  }
+  #aboutMeText {
+    padding-left: 10px;
+  }
+}
+
+/* Small devices (portrait tablets and large phones, up to 768px) */
+@media only screen and (max-width: 768px) {
+  /* Main Page */
+  .jumbotron-fluid {
+    background-size: cover;
+  }
+  .display-3 {
+    text-shadow: white 1px 1px;
+    font-weight: bold !important;
+    text-align: center;
+  }
+  .lead {
+    text-align: center;
+    font-size: 30px !important;
+    text-shadow: white 1px 1px;
+  }
+
+  /* Projects Page */
+  .carouselContainer {
+    flex-direction: column !important;
+  }
+  .imgContainer {
+    width: 100%;
+  }
+  .carousel-caption {
+    font-size: 5px;
+    height: auto;
+  }
+  .carousel-caption.d-none {
+    display: block !important;
+  }
+  .textContainer {
+    width: 100%;
+  }
+  .githubLink a {
+    left: 5% !important;
+    padding-right: 5px !important;
+    text-align: center;
+  }
+  #gitLink {
+    float: left;
+  }
+  #liveLink {
+    float: right;
+  }
+}
+
+@media only screen and (max-width: 950px) {
+  .jumbotron-fluid {
+    background-size: cover;
+  }
+  .display-3 {
+    font-weight: 400 !important;
+    text-shadow: white 1px 1px;
+  }
+  .lead {
+    font-size: 25px !important;
+    text-shadow: white 1px 1px;
+
+  }
+  .githubLink a {
+    left: 18%;
+  }
+}
+
+@media only screen and (max-width: 1350px) {
+  .lead {
+    font-size: 25px !important;
+    text-shadow: white 1px 1px;
+    font-weight: 700 !important;
+  }
+  .githubLink a {
+    left: 27%;
+  }
+}
