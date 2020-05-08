@@ -1,0 +1,39 @@
+{
+  "files": {
+    "main.css": "/React-Portfolio/static/css/main.e438005a.chunk.css",
+    "main.js": "/React-Portfolio/static/js/main.4221e8ed.chunk.js",
+    "main.js.map": "/React-Portfolio/static/js/main.4221e8ed.chunk.js.map",
+    "runtime-main.js": "/React-Portfolio/static/js/runtime-main.52b30c36.js",
+    "runtime-main.js.map": "/React-Portfolio/static/js/runtime-main.52b30c36.js.map",
+    "static/css/2.69121389.chunk.css": "/React-Portfolio/static/css/2.69121389.chunk.css",
+    "static/js/2.4a21fa7f.chunk.js": "/React-Portfolio/static/js/2.4a21fa7f.chunk.js",
+    "static/js/2.4a21fa7f.chunk.js.map": "/React-Portfolio/static/js/2.4a21fa7f.chunk.js.map",
+    "index.html": "/React-Portfolio/index.html",
+    "precache-manifest.42b353966a2bfa56289080e71746aa69.js": "/React-Portfolio/precache-manifest.42b353966a2bfa56289080e71746aa69.js",
+    "service-worker.js": "/React-Portfolio/service-worker.js",
+    "static/css/2.69121389.chunk.css.map": "/React-Portfolio/static/css/2.69121389.chunk.css.map",
+    "static/css/main.e438005a.chunk.css.map": "/React-Portfolio/static/css/main.e438005a.chunk.css.map",
+    "static/js/2.4a21fa7f.chunk.js.LICENSE.txt": "/React-Portfolio/static/js/2.4a21fa7f.chunk.js.LICENSE.txt",
+    "static/media/about-me-photo.jpg": "/React-Portfolio/static/media/about-me-photo.63c26a7a.jpg",
+    "static/media/bamazon.jpg": "/React-Portfolio/static/media/bamazon.db4b7f96.jpg",
+    "static/media/App.css": "/React-Portfolio/static/media/ep_naturalblack.23e2b6cf.png",
+    "static/media/clicky.png": "/React-Portfolio/static/media/clicky.0ab325b1.png",
+    "static/media/crystalcollector.png": "/React-Portfolio/static/media/crystalcollector.6729261f.png",
+    "static/media/fridgechef.png": "/React-Portfolio/static/media/fridgechef.7db626bf.png",
+    "static/media/friendFinder.png": "/React-Portfolio/static/media/friendFinder.e841e204.png",
+    "static/media/fureverHome.png": "/React-Portfolio/static/media/fureverHome.b3d0d316.png",
+    "static/media/giftastic.png": "/React-Portfolio/static/media/giftastic.4c530ae7.png",
+    "static/media/googlebooks.png": "/React-Portfolio/static/media/googlebooks.c5ae4212.png",
+    "static/media/liri-node-app.png": "/React-Portfolio/static/media/liri-node-app.3b7f2a59.png",
+    "static/media/reelTime.png": "/React-Portfolio/static/media/reelTime.9f3422b4.png",
+    "static/media/traintimes.png": "/React-Portfolio/static/media/traintimes.27d8bdb0.png",
+    "static/media/trivia.png": "/React-Portfolio/static/media/trivia.8a13f78d.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.52b30c36.js",
+    "static/css/2.69121389.chunk.css",
+    "static/js/2.4a21fa7f.chunk.js",
+    "static/css/main.e438005a.chunk.css",
+    "static/js/main.4221e8ed.chunk.js"
+  ]
+}
