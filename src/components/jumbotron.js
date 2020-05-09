@@ -11,7 +11,7 @@ const MainSection = (props) => {
             <div className="col-12">
                 <Jumbotron fluid>
                     <Container fluid>
-                    <h1 className="display-3">From the BA to Full Stack Developer</h1>
+                    <h1 className="display-3">From BA to Full Stack Developer</h1>
                     <p className="lead">My personal journey from a Business Analyst to coder.</p>
 
                     <a className="logo" href="https://github.com/aaalazzwi83">
@@ -34,7 +34,7 @@ const MainSection = (props) => {
                 </div>
                 <div className="col-12">
                     <div id="aboutMeText">
-                        <p>Experienced Senior Information Technology Business Analyst with a demonstrated history of working in the building materials industry. Skilled in Visio, Requirements Analysis, Quality Assurance, Business Analysis, and Consulting. Strong information technology professional with a Bachelor's degree focused in Business Administration and Management, General from Alpetra University . , I've made a smooth transition over to web development. After completing a Full Stack Web Developer bootcamp at UT Austin, I am now proficient in React, Javascript, Node.js, Express, HTML & CSS, among other programs, libraries and frameworks.</p>
+                        <p>Experienced Senior Information Technology Business Analyst with a demonstrated history of working in the building materials industry. Skilled in Visio, Requirements Analysis, Quality Assurance, Business Analysis, and Consulting. Strong information technology professional with a Bachelor's degree focused in Business Administration and Management, General from Alpetra University . , I've made a smooth transition over to web development. After completing a Full Stack Web Developer bootcamp at UT Austin, I am now proficient in React, Javascript, Node.js, Express, HTML & CSS, among other programs, libraries and frameworks</p>
                         <p>With a sharp eye for designing front-end and a logical brain for tackling back-end, I'd be an essential asset to your team.</p>
                         <p>Feel free to peruse my favorite projects via the navbar above, or even visit my GitHub to see my full catalogue. I'd love to hear from you, too! Fire me an email from the contact page.</p>
                     </div>
