@@ -20,7 +20,7 @@ const MainSection = (props) => {
                     <a className="logo" href="https://www.linkedin.com/in/ammar-alazzawi-3a882a168/">
                         <img src={linkedInLogo} alt="LinkedIn logo" id="linkedin" />
                     </a>
-                    <a className="logo" href="https://drive.google.com/drive/my-drive" id="cv">
+                    <a className="logo" href="https://docs.google.com/document/d/0BxZzHHjLTajOeGYwRk5LbGgxX0o5bVQ4MGYzZThWYWNyZUtB/edit" id="cv">
                         CV
                     </a>
                     </Container>
